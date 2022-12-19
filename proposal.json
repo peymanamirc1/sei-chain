@@ -1,0 +1,15 @@
+{
+  "title": "Gov Param Change",
+  "description": "---",
+  "is_expedited": false,
+  "changes": [
+    {
+      "subspace": "gov",
+      "key": "votingparams",
+      "value": {
+          "voting_period":"300000000000"
+       }
+    }
+  ],
+  "deposit": "100000000usei"
+}
