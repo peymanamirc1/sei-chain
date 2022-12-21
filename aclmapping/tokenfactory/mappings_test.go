@@ -109,7 +109,7 @@ func (suite *KeeperTestSuite) TestMsgBurnDependencies() {
 			expectedError: nil,
 			dynamicDep:    false,
 		},
-
+	}
 	for _, tc := range tests {
 		suite.Run(fmt.Sprintf("Test Case: %s", tc.name), func() {
 			handlerCtx, cms := cacheTxContext(suite.Ctx)
